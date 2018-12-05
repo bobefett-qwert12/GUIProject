@@ -29,6 +29,7 @@ public class FirstPanel extends JPanel
 	
 	private void setupPanel()
 	{
+		this.setBackground(Color.cyan);
 		this.add(myButton);
 		this.add(myLabel);
 		this.setLayout(appLayout);
